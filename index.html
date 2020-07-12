@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div id="stopWatch">
+        <div id="sw-Time">
+            <div class="sw-t">
+        <h2 id="minH">0</h2><h2>:</h2>
+        <h2 id="secH">0</h2><h2>:</h2>
+        <h2 id="msecH">0</h2>
+    </div>
+    </div>
+    <div id="controls">
+        <button title="Paly" onclick="start()"> <i class="fa fa-play"></i>     </button>
+        <button title="Stop" onclick="pause()"> <i class="fa fa-stop"></i>     </button>
+        <button title="Reset" onclick="clears()"> <i class="fas fa-power-off"></i></button>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
